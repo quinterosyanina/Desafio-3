@@ -1,0 +1,20 @@
+{
+  "name": "desafio-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --e2e -b electron --config baseUrl=https://pushing-front.vercel.app/",
+    "chorme":"npx cypress open --e2e -b chorme",
+    "prod":"npx cypress open --e2e -b electron --config base url=https://pushing-front.vercel.app/",
+    "qa": "npx cypress open --e2e -b electron --config base url=https://pushing-it.vercel.app/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.3.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
+
